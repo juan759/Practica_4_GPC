@@ -19,13 +19,15 @@ python3 httpCliente.py mail7.unam.mx GET / Motorola gzip Keep-Alive
   - POST, este método le pide al servidor que el recurso objetivo procese lo que le envíemos, información generalmente, a su propia semantica. Se usa para logins, por ejemplo.
   - PUT, se utiliza cuando queremos modificar o actualizar algún elemento que envíamos en nuestra petición.
   - DELETE, se utiliza cuando queremos eliminar o borrar algún recurso en el servidor.
-1 ¿Investigue y enliste junto con su significado las categorías de códigos de estado que usa HTTP?
+    
+2 ¿Investigue y enliste junto con su significado las categorías de códigos de estado que usa HTTP?
   - Informational responses (100 – 199). Estos códigos son para indicar que la petición fue recibida y se está continunado algún proceso sobre ella.
   - Successful responses (200 – 299). Estos códigos son para indicar que la petición fue recibida, entendida y aceptada.
   - Redirection messages (300 – 399). Estos códigos son para indicar que se necesitan más acciones o eventos para procesar y responder la petición.
   - Client error responses (400 – 499). Estos códigos son para indicar que la petición tiene mala sintaxis o que el recurso solicitado no existe.
-  - Server error responses (500 – 599). Estos códigos son para indicar que el servidor no pudo completar o procesar una petición válida. 
-1 ¿Para qué se usan los campos encoding y connection?
+  - Server error responses (500 – 599). Estos códigos son para indicar que el servidor no pudo completar o procesar una petición válida.
+    
+3 ¿Para qué se usan los campos encoding y connection?
   - Connection: controla si la conexión se queda abierta o no cuando la petición original sea completada.
   - Encoding: controla qué codificaciones han sido aplicadas y en qué orden, a la representación actual del mensaje.
 
