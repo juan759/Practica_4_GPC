@@ -13,6 +13,7 @@ Primero, no se tenía mucha idea de cómo usar o crear un archivo Docker, sin em
 
 ## Ejemplos de uso:
 python3 httpCliente.py mail7.unam.mx GET / Motorola gzip keep-alive
+
 python3 httpCliente.py mail7.unam.mx GET / Motorola gzip close
 
 ## Preguntas
