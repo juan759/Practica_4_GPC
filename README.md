@@ -7,9 +7,13 @@ El archivo httpClient.py es un script de python3 el cual requiere de parametros 
 Primero, se creó la función que procesa los parametros que se pasan al script mediante command line y son puestos en una lista global.
 Luego se crea la función que crea o junta todos los headers, con su valor ya sea obtenido por usuario o fijo, y luego crea la petición. Con su método HTTP, versión, recurso y cualquier otra información relevante para poder usar el protocolo HTTP.
 Luego, se creó la función que crea el socket, lo inicializa, hace que se conecté al puerto 80 de nuestro host o dominio y luego envía la petición creada con la función anterior. Así, al recibir una respuesta sin importar su código esta será impresa en pantalla y se cerrará la conexión del socket al cliente.
+## Reporte creación Dockerfile.
+
+Primero, no se tenía mucha idea de cómo usar o crear un archivo Docker, sin embargo se tenía la idea de que ayudaba a la "virtualización" de máquinas y recursos. Tras realizar el archivo y probarlo como se muestra en el git de la Práctica se entendió mejor, que justamente se crea una máquina y se descargan y crean los recursos que se pongan en el archivo. Con esta máquina tan simple se entendió mucho mejor el funcionamiento y razón de docker, así como su poder y versatilidad. Es algo muy poderoso jaja.
 
 ## Ejemplos de uso:
-python3 httpCliente.py mail7.unam.mx GET / Motorola gzip Keep-Alive
+python3 httpCliente.py mail7.unam.mx GET / Motorola gzip keep-alive
+python3 httpCliente.py mail7.unam.mx GET / Motorola gzip close
 
 ## Preguntas
 
