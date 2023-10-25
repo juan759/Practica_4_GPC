@@ -1,7 +1,7 @@
 #Dockerfile
 
 #Para que la base del dockerfile sea Ubuntu.
-FROM Ubuntu
+FROM ubuntu
 
 #Uso de python.
 FROM python:3.10.13
