@@ -1,5 +1,9 @@
 # Practica_4_GPC
 
+## Integrantes.
+Emiliano Dominguez Cruz.
+Juan Antonio Jasso Oviedo.
+
 ## Reporte de creación de archivo Python.
 
 El archivo httpClient.py es un script de python3 el cual requiere de parametros 6 cosas: un host, una IP o un dominio, el método HTTP para comunicarnos con el servidor, un recurso el cual pedir, un user agent de alguno de nuestra lista de user agents permitidos, el encoding que tendrá la petición y finalmente si se mantendrá la conexión despues de cumplida la petición o si se cerrará la conexión. 
@@ -10,6 +14,8 @@ Luego, se creó la función que crea el socket, lo inicializa, hace que se conec
 ## Reporte creación Dockerfile.
 
 Primero, no se tenía mucha idea de cómo usar o crear un archivo Docker, sin embargo se tenía la idea de que ayudaba a la "virtualización" de máquinas y recursos. Tras realizar el archivo y probarlo como se muestra en el git de la Práctica se entendió mejor, que justamente se crea una máquina y se descargan y crean los recursos que se pongan en el archivo. Con esta máquina tan simple se entendió mucho mejor el funcionamiento y razón de docker, así como su poder y versatilidad. Es algo muy poderoso jaja.
+
+En un poryecto de Ingenieria de software se entregó un dockerfile entonces, Emiliano, tenía un poco más de experiencia en ese tema.
 
 ## Ejemplos de uso:
 python3 httpCliente.py mail7.unam.mx GET / Motorola gzip keep-alive
